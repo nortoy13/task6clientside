@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.name{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.name input{
+  height: 50px;
+  width: 300px;
+  font-size: 25px;
+  padding: 10px;
+}
+.name div{
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+.name button{
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 5px;
+  color: aliceblue;
+  background-color: rgb(0, 94, 255);
+  border: none;
+}
+
+.home nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  margin-top: 30px;
+}
+.home form{
+  background: rgba(227, 227, 227, 0.3);
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px;
+}
+.home input{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.home button{
+  margin-top: 10px;
+  color: aliceblue;
+  border: none;
+  background: rgb(255, 130, 21);
+  border-radius: 5px;
+  padding: 10px;
+}
+.home textarea{
+  padding: 10px;
+}
+
+.inbox{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+
+.autocomplition{
+  padding-left: 20px;
+  margin-top: -5px;
+}
+
+.inboxBody{
+  background: rgb(214, 255, 248);
+  margin-top: 10px;
+  padding: 5px;
+}
